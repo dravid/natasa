@@ -13,6 +13,7 @@ define('D_TEMPLATE', 'template');
 include ('functions/sandbox.php');
 include ('functions/data.php');
 include ('functions/template.php');
+include ('functions/blog.php');
 
 #Site setup:
 $debug = data_setting_value($dbc, 'debug-status');

@@ -1,7 +1,7 @@
 <?php
 // Setup FIle
 
-error_reporting(0);
+//error_reporting(0);
 
 # Database Connection:
 include('../config/connection.php');
@@ -11,7 +11,6 @@ define('D_TEMPLATE', 'template');
 
 #Functions:
 include ('functions/data.php');
-include ('functions/template.php');
 include ('functions/sandbox.php');
 
 
@@ -23,7 +22,7 @@ $site_title = 'AtomCMS 2.0';
 if(isset($_GET['page'])){
 	$page = $_GET['page']; // Set $pageid to equal the value given in the URL
 } else {
-	$page = 'dashboard'; // Set $pageid equal to 1 or the home page
+	$page = 'blog'; // Set $pageid equal to 1 or the home page
 }
 
 #Page Setup

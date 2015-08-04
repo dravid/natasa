@@ -28,22 +28,22 @@ function data_user($dbc, $id){
 	return $data;
 }
 
-function data_post($dbc, $id){
-	$q = "SELECT * FROM posts WHERE id = $id";
+function data_post($dbc, $id, $table){
+	$q = "SELECT * FROM $table WHERE id = $id";
 	$r = mysqli_query($dbc, $q);
 	
 	$data = mysqli_fetch_assoc($r);
 	
-	$data['body_nohtml'] = strip_tags($data['body']);  //primer za "read more" - mogu da skinem html tagove u prewiev i
+	$data['body_nohtml'] = strip_tags($data['tekst']);  //primer za "read more" - mogu da skinem html tagove u prewiev i
 													   //stavim ih kad se klikne na read more u celom, prikazu.
 	
-	if($data['body'] == $data['body_nohtml']) {
+	if($data['tekst'] == $data['body_nohtml']) {
 		
-		$data['body_formatted'] = '<p>'.$data['body'].'</p>';
+		$data['body_formatted'] = '<p>'.$data['tekst'].'</p>';
 		
 	} else {
 		
-		$data['body_formatted'] = $data['body'];
+		$data['body_formatted'] = $data['tekst'];
 		
 	}
 	return $data;
