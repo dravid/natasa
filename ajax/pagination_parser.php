@@ -11,8 +11,7 @@ $pn = 1;
 $pn = $last; 
 } 
 // Connect to our database here 
-$dbc = mysqli_connect('127.0.0.1', 'root', '', 'natasa') 
-			OR die('Could not connect becouse: '.mysqli_connect_error()); 
+include('../config/connection.php');
 // This sets the range of rows to query for the chosen $pn 
 $limit = 'LIMIT ' .($pn - 1) * $rpp .',' .$rpp; 
 // This is your query again, it is for grabbing just one page worth of rows by applying $limit 
