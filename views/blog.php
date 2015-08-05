@@ -62,6 +62,11 @@
 
 	<div class="row">
 		<div class="box">
+			
+			<div class="col-lg-12">
+				<img class="img-responsive img-border" src="img/blog/natasa.jpg" alt="">
+			</div>
+			
 			<div class="col-lg-12">
 				<hr>
 				<h2 class="intro-text text-center">Moj
@@ -69,13 +74,10 @@
 				</h2>
 				<hr>
 			</div>
-			<div class="col-lg-12">
-				<img class="img-responsive img-border" src="img/blog/natasa.jpg" alt="">
-			</div>
 			
 			<div class="col-lg-12" id="results_box"></div>
 			
-			<div class="col-lg-4 col-lg-offset-4">
+			<div class="col-lg-4 col-lg-offset-4 text-center">
 				<div id="pagination_controls"></div> 
 				<script> request_page(1); </script>
 			</div>

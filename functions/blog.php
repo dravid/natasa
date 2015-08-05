@@ -20,6 +20,7 @@ function blog_modals($dbc){
       </div>
       <div class="modal-body">
 		<p><?php echo $blog['tekst']; ?></p>
+		<small><?php echo $blog['datum']; ?></small>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
