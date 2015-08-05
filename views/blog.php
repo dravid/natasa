@@ -9,7 +9,7 @@
 				</h2>
 				<hr>
 			</div>
-			<div class="col-lg-12 text-center">
+			<div class="col-lg-12">
 				<img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
 				<?php blog_post($dbc); ?>
 			</div>
