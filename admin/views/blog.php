@@ -1,15 +1,15 @@
-<h1>Page Manager</h1>
+<h1 class="text-center">Blog</h1>
 
 <div class="row">
 	<div class="col-md-3">
 
 		<div class="list-group">
 				<a class="list-group-item" href="?page=blog">
-					<i class="fa fa-plus"></i>New Page
+					<i class="fa fa-plus"></i> Novi blog
 				</a>
 			
 		<?php
-			$q = "SELECT * FROM blog ORDER BY id ASC";
+			$q = "SELECT * FROM blog ORDER BY id DESC";
 			$r = mysqli_query($dbc, $q);
 			
 			while($list = mysqli_fetch_assoc($r)){ 

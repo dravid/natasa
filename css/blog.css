@@ -1,0 +1,51 @@
+.btn,
+.btn:link,
+.btn:visited,
+.btn:hover,
+.btn:active{
+	outline: 0;
+}
+
+.btn:focus{
+	outline: 0;
+	border: 2px solid black;
+	background-color: #c4c4c4;
+	color: white;
+}
+
+
+#results_box{
+	margin: 5% auto;
+}
+#results_box>div{
+	width: 25em;
+	height: 21em;
+	border: 1px solid gray;
+	margin: .5em;
+	padding: .7em;
+}
+
+#results_box>div>h3{
+	font-size: 1.4em;
+}
+
+#results_box>div>p{
+	font-size: 1.1em;
+}
+
+#results_box button{
+	float: right;
+	margin-right: 1em;
+}
+
+
+.blog_modal>.modal-dialog{
+	position: relative;
+	width: 90%;
+	margin: 2em auto;
+}
+.blog_modal .blog-title{
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 900; 
+}

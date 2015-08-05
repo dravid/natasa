@@ -2,7 +2,7 @@
 	
 	<footer id="footer">
 	
-		<p>This is my footer</p>
+		<p>Nata&#353;a</p>
 
 	</footer>
 	

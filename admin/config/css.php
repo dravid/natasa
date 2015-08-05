@@ -57,4 +57,8 @@
 		background-size: cover; /*background-size: contain; Fits image to size of a div*/
 		background-position: center center;
 	}
+	.list-group{
+		max-height: 50em;
+		overflow-y: auto;
+	}
 </style>
