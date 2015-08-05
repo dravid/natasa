@@ -16,8 +16,8 @@
 	margin: 5% auto;
 }
 #results_box>div{
-	width: 25em;
-	height: 21em;
+	width: 32%;
+	height: 22em;
 	border: 1px solid #999999;
 	margin: .5em;
 	padding: .7em;
@@ -46,4 +46,42 @@
 	text-align: center;
 	font-size: 1.4em;
 	font-weight: 900; 
+}
+
+@media screen and (max-width:1199px) {
+    #results_box>div{
+	width: 48%;
+	height: 20em;
+	border: 1px solid #999999;
+	margin: .5em;
+	padding: .7em;
+}
+}
+
+@media screen and (max-width:990px) {
+    #results_box>div{
+	width: 46%;
+	height: 24em;
+}
+}
+
+@media screen and (max-width:768px) {
+    #results_box>div{
+	width: 100%;
+	height: 16em;
+}
+}
+
+@media screen and (max-width:690px) {
+    #results_box>div{
+	width: 100%;
+	height: 19em;
+}
+}
+
+@media screen and (max-width:440px) {
+    #results_box>div{
+	width: 100%;
+	height: 29em;
+}
 }

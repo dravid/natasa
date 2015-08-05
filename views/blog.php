@@ -31,7 +31,7 @@
 			 
 			 for(i = 0; i < dataArray.length - 1; i++){
 				 var itemArray = dataArray[i].split("|"); 
-				 html_output += '<div class="col-lg-4"><h3>'+itemArray[1]+'</h3><p>'+itemArray[2]+'</p><small>'+itemArray[3]+'</small><button data-toggle="modal" data-target="#blog_'+itemArray[0]+'"" class="btn btn-default">Pro&#269;itaj</button></div>';
+				 html_output += '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12"><h3>'+itemArray[1]+'</h3><p>'+itemArray[2]+'</p><small>'+itemArray[3]+'</small><button data-toggle="modal" data-target="#blog_'+itemArray[0]+'"" class="btn btn-default">Pro&#269;itaj</button></div>';
 			 } 
 			 results_box.innerHTML = html_output; 
 		 } 
@@ -75,9 +75,9 @@
 				<hr>
 			</div>
 			
-			<div class="col-lg-12" id="results_box"></div>
+			<div class="col-lg-12 col-md-12 colsm-12 col-xs-12" id="results_box"></div>
 			
-			<div class="col-lg-4 col-lg-offset-4 text-center">
+			<div class="col-lg-12 text-center">
 				<div id="pagination_controls"></div> 
 				<script> request_page(1); </script>
 			</div>
