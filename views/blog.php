@@ -62,17 +62,17 @@
 
 	<div class="row">
 		<div class="box">
-			
-			<div class="col-lg-12">
-				<img class="img-responsive img-border" src="img/blog/natasa.jpg" alt="">
-			</div>
-			
+		
 			<div class="col-lg-12">
 				<hr>
 				<h2 class="intro-text text-center">Moj
 					<strong>blog</strong>
 				</h2>
 				<hr>
+			</div>
+			
+			<div class="col-lg-12">
+				<img class="img-responsive img-border" src="img/blog/natasa.jpg" alt="">
 			</div>
 			
 			<div class="col-lg-12 col-md-12 colsm-12 col-xs-12" id="results_box"></div>
