@@ -31,11 +31,23 @@ h6 {
     letter-spacing: 1px;
 }
 
+a
+a:link ,
+a:visited,
 a:hover,
 a:focus,
 a:active,
 a.active {
-    outline: 0;
+    outline: 0 !important;
+}
+
+.saradnici{
+		margin-bottom: 5%;
+	}
+
+.saradnici>h3{
+	font-size: 1.2em;
+	text-transform: capitalize;
 }
 
 .brand-before span {
@@ -118,6 +130,10 @@ hr {
     margin: 0 auto 0;
 }
 
+.img-centered{
+	margin: 0 auto;
+}
+
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
@@ -141,7 +157,7 @@ footer p {
         line-height: normal;
         color: #fff;
     }
-
+	
     .top-divider {
         margin-top: 0;
     }
@@ -200,6 +216,18 @@ footer p {
 	
 	.btn-default{
 		margin: 2% 0;
+	}
+		
+	.saradnici{
+		height: 470px;
+	}
+}
+
+
+@media screen and (max-width:520px) {
+		
+	.saradnici{
+		height: 410px;
 	}
 }
 
