@@ -1,13 +1,13 @@
 <h1 class="text-center">Blog</h1>
 
 <div class="row">
-	<div class="col-md-3">
+	<div class="col-md-3 col-md-offset-1">
 
 		<div class="list-group">
 				<a class="list-group-item" href="?page=blog">
 					<i class="fa fa-plus"></i> Novi blog
 				</a>
-			
+			<div id="list-height">
 		<?php
 			$q = "SELECT * FROM blog ORDER BY id DESC";
 			$r = mysqli_query($dbc, $q);
@@ -27,9 +27,10 @@
 				</div>
 		
 		<?php } ?>
+		</div><!--list-height">-->
 		</div><!-- END List-group -->
 	</div><!-- END Row -->
-	<div class="col-md-9">
+	<div class="col-md-6 col-md-offset-1">
 		
 		<?php if(isset($message)){ echo $message; } ?>
 

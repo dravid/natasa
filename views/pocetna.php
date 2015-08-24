@@ -71,7 +71,7 @@
 					me na različite svetske destinacije.</p>
 				<p>Udata sam i majka sam tri najinteresantnija dečaka na svetu. Moj zadatak je da u njihov život 
 					unesem boje.</p>
-				<div class="text-center"><a href="o-nama" class="btn btn-default btn-lg">Više o meni</a></div>
+				<div class="text-center"><a href="o-meni" class="btn btn-default btn-lg">Više o meni</a></div>
 			</div>
 		</div>
 	</div>

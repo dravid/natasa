@@ -61,8 +61,7 @@
     to {font-size: 1.4em;}
 }
 */
-#results_box button{
-	float: right;
+#results_box a{
 	margin-right: 1em;
 }
 

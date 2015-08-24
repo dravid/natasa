@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.1.12
+-- version 4.3.11
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 05, 2015 at 01:28 PM
--- Server version: 5.6.16
--- PHP Version: 5.5.11
+-- Generation Time: Aug 12, 2015 at 07:27 PM
+-- Server version: 5.6.24
+-- PHP Version: 5.6.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -27,12 +27,11 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE IF NOT EXISTS `blog` (
-  `id` smallint(6) NOT NULL AUTO_INCREMENT,
+  `id` smallint(6) NOT NULL,
   `naslov` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
   `tekst` mediumtext COLLATE utf8_unicode_ci NOT NULL,
-  `datum` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=11 ;
+  `datum` varchar(50) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `blog`
@@ -56,14 +55,13 @@ INSERT INTO `blog` (`id`, `naslov`, `tekst`, `datum`) VALUES
 --
 
 CREATE TABLE IF NOT EXISTS `navigation` (
-  `id` mediumint(9) NOT NULL AUTO_INCREMENT,
+  `id` mediumint(9) NOT NULL,
   `label` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
   `url` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
   `target` varchar(30) COLLATE utf8_unicode_ci NOT NULL,
   `position` int(3) NOT NULL,
-  `status` int(1) NOT NULL DEFAULT '1',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=5 ;
+  `status` int(1) NOT NULL DEFAULT '1'
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `navigation`
@@ -82,18 +80,15 @@ INSERT INTO `navigation` (`id`, `label`, `url`, `target`, `position`, `status`) 
 --
 
 CREATE TABLE IF NOT EXISTS `posts` (
-  `id` mediumint(9) NOT NULL AUTO_INCREMENT,
+  `id` mediumint(9) NOT NULL,
   `user` mediumint(9) NOT NULL,
   `type` mediumint(9) NOT NULL,
   `slug` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
   `label` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `title` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `header` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
-  `body` longtext COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`),
-  KEY `user` (`user`),
-  KEY `type` (`type`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=6 ;
+  `body` longtext COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `posts`
@@ -103,7 +98,8 @@ INSERT INTO `posts` (`id`, `user`, `type`, `slug`, `label`, `title`, `header`, `
 (1, 1, 1, 'pocetna', 'Po&#269;etna', 'Po&#269;etna', 'Po&#269;etna', '<p>Po&amp;#269;etna</p>'),
 (2, 2, 1, 'o-meni', 'O meni', 'O meni', 'O meni', '<p>O meni.</p>'),
 (4, 1, 1, 'kontakt', 'Kontakt', 'Kontakt', 'Kontakt', '<p>Kontakt</p>'),
-(5, 1, 1, 'blog', 'Blog', 'Blog', 'Blog', '<p>Blog stranica</p>');
+(5, 1, 1, 'blog', 'Blog', 'Blog', 'Blog', '<p>Blog stranica</p>'),
+(6, 1, 1, 'show-blog', 'Show blog', 'Show blog', 'Show blog', '<p>Show blog</p>');
 
 -- --------------------------------------------------------
 
@@ -112,12 +108,11 @@ INSERT INTO `posts` (`id`, `user`, `type`, `slug`, `label`, `title`, `header`, `
 --
 
 CREATE TABLE IF NOT EXISTS `post_types` (
-  `id` mediumint(9) NOT NULL AUTO_INCREMENT,
+  `id` mediumint(9) NOT NULL,
   `label` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
   `name` varchar(150) COLLATE utf8_unicode_ci NOT NULL,
-  `status` int(1) NOT NULL DEFAULT '1',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+  `status` int(1) NOT NULL DEFAULT '1'
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `post_types`
@@ -135,8 +130,7 @@ INSERT INTO `post_types` (`id`, `label`, `name`, `status`) VALUES
 CREATE TABLE IF NOT EXISTS `settings` (
   `id` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `label` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
-  `value` longtext COLLATE utf8_unicode_ci NOT NULL,
-  PRIMARY KEY (`id`)
+  `value` longtext COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
@@ -154,15 +148,14 @@ INSERT INTO `settings` (`id`, `label`, `value`) VALUES
 --
 
 CREATE TABLE IF NOT EXISTS `users` (
-  `id` mediumint(9) NOT NULL AUTO_INCREMENT,
+  `id` mediumint(9) NOT NULL,
   `avatar` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `first` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `last` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `password` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
-  `status` int(1) NOT NULL DEFAULT '1',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=5 ;
+  `status` int(1) NOT NULL DEFAULT '1'
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `users`
@@ -172,8 +165,78 @@ INSERT INTO `users` (`id`, `avatar`, `first`, `last`, `email`, `password`, `stat
 (1, '1425504829279.jpg', 'Dragan', 'Vidakovic', 'ristonn@yahoo.com', '9d4e1e23bd5b727046a9e3b4b7db57bd8d6ee684', 1),
 (2, '', 'Aleksa', 'Otasevic', 'aleksa@yahoo.com', '9d4e1e23bd5b727046a9e3b4b7db57bd8d6ee684', 1),
 (3, '', 'John', 'Doe', 'john@doe.com', '9d4e1e23bd5b727046a9e3b4b7db57bd8d6ee684', 0),
-(4, '', 'John', 'Smith', 'john@smith.com', '9d4e1e23bd5b727046a9e3b4b7db57bd8d6ee684', 0);
+(4, '', 'John', 'Smith', 'john@smith.com', '9d4e1e23bd5b727046a9e3b4b7db57bd8d6ee684', 0),
+(5, '', 'Natasa', 'Stantic Brajovic', 'natasa.stantic.brajovic@gmail.com', '11b1c27d20bee6ac9f64a40cd94e5fc8d0dcff80', 1);
 
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `blog`
+--
+ALTER TABLE `blog`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `navigation`
+--
+ALTER TABLE `navigation`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `posts`
+--
+ALTER TABLE `posts`
+  ADD PRIMARY KEY (`id`), ADD KEY `user` (`user`), ADD KEY `type` (`type`);
+
+--
+-- Indexes for table `post_types`
+--
+ALTER TABLE `post_types`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `settings`
+--
+ALTER TABLE `settings`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `blog`
+--
+ALTER TABLE `blog`
+  MODIFY `id` smallint(6) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=10;
+--
+-- AUTO_INCREMENT for table `navigation`
+--
+ALTER TABLE `navigation`
+  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
+--
+-- AUTO_INCREMENT for table `posts`
+--
+ALTER TABLE `posts`
+  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
+--
+-- AUTO_INCREMENT for table `post_types`
+--
+ALTER TABLE `post_types`
+  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
