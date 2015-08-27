@@ -6,16 +6,17 @@
 		
 			<div class="col-lg-12">
 				<hr>
-				<h2 class="intro-text text-center">Moj
-					<strong>video</strong>
+				<h2 class="intro-text text-center">Moja
+					<strong>video</strong> stranica
 				</h2>
 				<hr>
-			</div>
 			
-			<div class="video_box" id="promo">
-				<a href="https://www.youtube.com/watch?v=yII-IBTYjKc" rel="prettyPhoto" title="promo" alt="promo"><img src="img/video/play_button.png" alt="playing promo"></a>
+			
+				<div class="video_box" id="promo">
+					<a href="https://www.youtube.com/watch?v=yII-IBTYjKc" rel="prettyPhoto" title="promo" alt="promo"><img src="img/video/play_button.png" alt="playing promo"></a>
+				</div>
+				
 			</div>
-	
 		</div><!-- /.box -->
 	</div><!-- /.row -->
 	

@@ -40,11 +40,11 @@ background: url('../img/video/gina.jpg') no-repeat top center;
 background-size: 100% auto;
 }
 
-.video_box>a>img{
+.video_box img{
 background-color: transparent;
 border: none;
 margin-top: -52%;
-margin-left: 45%;
+margin-left: 40%;
 
 }
 
