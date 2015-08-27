@@ -122,7 +122,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur </p>
 								<p>Više o Foto/Video</p>
 							</div>
-							<a href="#">View more</a>
+							<a href="video">View more</a>
 						</figcaption>			
 					</figure>
 				</div>

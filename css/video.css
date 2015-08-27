@@ -1,0 +1,60 @@
+.video_box{
+position: relative;
+width: 80%;
+height: auto;
+padding-top: 41%;
+margin: 0 auto;
+}
+
+#promo{
+background: url('../img/video/promo.jpg') no-repeat top center;
+background-size: 100% auto;
+}
+
+#promo>a>img{
+	width: 10%;
+}
+
+#promo{
+background: url('../img/video/promo.jpg') no-repeat top center;
+background-size: 100% auto;
+}
+
+#haljine_balasevic{
+background: url('../img/video/haljine_balasevic.jpg') no-repeat top center;
+background-size: 100% auto;
+}
+
+#beautiful_brides{
+background: url('../img/video/beautiful_brides.jpg') no-repeat top center;
+background-size: 100% auto;
+}
+
+#studio_balasevic{
+background: url('../img/video/studio_balasevic.jpg') no-repeat top center;
+background-size: 100% auto;
+}
+
+#gina{
+background: url('../img/video/gina.jpg') no-repeat top center;
+background-size: 100% auto;
+}
+
+.video_box>a>img{
+background-color: transparent;
+border: none;
+margin-top: -52%;
+margin-left: 45%;
+
+}
+
+.video_box>a>img:hover{
+-webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.video_p{
+	width: 80%;
+	margin: 5% auto;
+	text-align: justify;
+}

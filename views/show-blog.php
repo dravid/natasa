@@ -20,7 +20,7 @@ $blog = mysqli_fetch_assoc($r)
 	<div class="row">
 		<div class="box">
 			<div class="col-lg-12">
-				<img class="img-responsive img-border" src="img/blog/natasa.jpg" alt="">
+				<img class="img-responsive img-border" id="show_blog_pic" src="img/blog/natasa_show_blog.jpg" alt="<?php echo $blog['naslov']; ?>">
 			</div>
 		
 			<div class="col-lg-12">
