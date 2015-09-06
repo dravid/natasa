@@ -1,0 +1,18 @@
+#american_wedding_left_img>a>img{
+	width: 46%;
+	height: auto;
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+
+a>img:hover{
+	
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+#american_wedding_left_img>p{
+	width: 96%;
+	margin: 4% auto;
+	text-align: justify;
+}
