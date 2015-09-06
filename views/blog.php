@@ -76,6 +76,24 @@
 				<img class="img-responsive img-border" src="img/blog/natasa.jpg" alt="">
 			</div>
 			
+			<div class="col-lg-12">
+			<p id="blog_p">
+			Dobrodošli na moj blog.<br><br> 
+			Ovde cu pisati o svemu što smatram da ne trebam 
+			da zadrzim za sebe. Svoje doživljaje, putovanja, iskustva, uspomene , podeliću ne samo kada imam "lazy day" 
+			nego i onda kada ugrabim 5 minuta da zapišem ono što ne želim da zaboravim :). 
+
+
+			</p>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="box">
+		
+			
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="results_box"></div>
 			
 			<div class="col-lg-12 text-center">
@@ -87,6 +105,7 @@
 			
 		</div>
 	</div>
+	
 </div>
 <!-- /.container -->
 

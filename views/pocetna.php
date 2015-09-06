@@ -116,11 +116,10 @@
 					<figure class="effect-julia">
 						<img class="img-responsive" src="img/foto-video.png" alt="sminka"/>
 						<figcaption>
-							<h2><span>Foto/Video</span></h2>
+							<h2><span>Video</span></h2>
 							<div>
-								<p>Lorem ipsum dolor sit amet </p>
-								<p>Lorem ipsum dolor sit amet, consectetur </p>
-								<p>Više o Foto/Video</p>
+								<p>Moja video stranica </p>
+								<p>Klikni da pogledaš</p>
 							</div>
 							<a href="video">View more</a>
 						</figcaption>			

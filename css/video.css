@@ -12,12 +12,7 @@ background-size: 100% auto;
 }
 
 #promo>a>img{
-	width: 10%;
-}
-
-#promo{
-background: url('../img/video/promo.jpg') no-repeat top center;
-background-size: 100% auto;
+width: 10%;
 }
 
 #haljine_balasevic{
@@ -41,11 +36,11 @@ background-size: 100% auto;
 }
 
 .video_box img{
+width: 15%;
 background-color: transparent;
 border: none;
-margin-top: -52%;
-margin-left: 40%;
-
+margin-top: -50%;
+margin-left: 45%;
 }
 
 .video_box>a>img:hover{
@@ -57,4 +52,19 @@ margin-left: 40%;
 	width: 80%;
 	margin: 5% auto;
 	text-align: justify;
+}
+
+@media screen and (max-width:1199px) {
+
+	#promo>a>img{
+	width: 20%;
+	}
+
+	.video_box img{
+	width: 20%;
+	background-color: transparent;
+	border: none;
+	margin-top: -55%;
+	margin-left: 40%;
+	}
 }

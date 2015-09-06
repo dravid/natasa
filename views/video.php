@@ -49,8 +49,8 @@
 				</div>
 				
 				<p class="video_p">
-					Video posvecen svim mladama koje sam u proteklih mesec ipo dana imala priliku da upoznam i 
-					steknem poverenje da tog bitnog dana budem deo njihove price.<br>
+					Video posvećen svim mladama koje sam u proteklih mesec i po dana imala priliku da upoznam i 
+					steknem poverenje, da tog bitnog dana budem deo njihove priče.<br>
 				</p>
 				
 			</div>
@@ -70,8 +70,8 @@
 					<a href="https://www.youtube.com/watch?v=nJ5dlJXpFx4&feature=youtu.be" rel="prettyPhoto" title="Reklama za butik Elle iz Budve" alt="studio balasevic"><img src="img/video/play_button.png" alt="playing reklama za butik Elle iz Budve"></a>
 				</div>
 				<p class="video_p">
-					Reklama za butik Elle iz Budve i njihove haljine iz modnog studia Balašević.<br>
-					Crna pamucna haljina butika Elle je iz kolekcije Ginna.<br>
+					Reklama za butik Elle iz Budve i njihove haljine iz modnog studija Balašević.<br>
+					Crna pamučna haljina butika Elle je iz kolekcije Ginna.<br>
 					Žuta i trobojna haljina su Balaševićeve.<br>
 				</p>
 				
@@ -87,8 +87,8 @@
 				</div>
 				
 				<p class="video_p">
-					Devojke su uzivale u modelima garderobe koje su ponele za ovu priliku!<br>
-					Pravo je zadovoljstvo raditi sa timom.profesionalaca koji uzivaju u spajanju lepog i korisnog.
+					Devojke su uživale u modelima garderobe koje su ponele za ovu priliku!<br>
+					Pravo je zadovoljstvo raditi sa timom profesionalaca koji uživaju u spajanju lepog i korisnog.
 				</p>
 				
 			</div>

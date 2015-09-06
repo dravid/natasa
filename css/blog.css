@@ -12,6 +12,13 @@
 }
 
 
+#blog_p{
+width: 68%;
+margin: 3% auto;
+text-align: justify;
+}
+
+
 #results_box{
 	margin: 5% auto;
 }

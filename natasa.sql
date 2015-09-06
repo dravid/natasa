@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 12, 2015 at 07:27 PM
+-- Generation Time: Aug 29, 2015 at 05:16 PM
 -- Server version: 5.6.24
 -- PHP Version: 5.6.8
 
@@ -88,7 +88,7 @@ CREATE TABLE IF NOT EXISTS `posts` (
   `title` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `header` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
   `body` longtext COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `posts`
@@ -99,7 +99,8 @@ INSERT INTO `posts` (`id`, `user`, `type`, `slug`, `label`, `title`, `header`, `
 (2, 2, 1, 'o-meni', 'O meni', 'O meni', 'O meni', '<p>O meni.</p>'),
 (4, 1, 1, 'kontakt', 'Kontakt', 'Kontakt', 'Kontakt', '<p>Kontakt</p>'),
 (5, 1, 1, 'blog', 'Blog', 'Blog', 'Blog', '<p>Blog stranica</p>'),
-(6, 1, 1, 'show-blog', 'Show blog', 'Show blog', 'Show blog', '<p>Show blog</p>');
+(6, 1, 1, 'show-blog', 'Show blog', 'Show blog', 'Show blog', '<p>Show blog</p>'),
+(7, 1, 1, 'video', 'Video', 'Video', 'Video page', '<p>Video page</p>');
 
 -- --------------------------------------------------------
 
@@ -226,7 +227,7 @@ ALTER TABLE `navigation`
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=7;
+  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `post_types`
 --
