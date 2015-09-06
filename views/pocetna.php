@@ -90,11 +90,11 @@
 						<figcaption>
 							<h2><span>Kosa</span></h2>
 							<div>
-								<p>Lorem ipsum dolor sit amet </p>
-								<p>Lorem ipsum dolor sit amet, consectetur </p>
-								<p>Više o frizurama</p>
+								<p>Stranica posvećena kosi </p>
+								<p>Fotografije i poneka reč o mojim radovima </p>
+								<p>Klikni da pogledaš</p>
 							</div>
-							<a href="#">View more</a>
+							<a href="kosa">View more</a>
 						</figcaption>			
 					</figure>
 				</div>
@@ -104,11 +104,11 @@
 						<figcaption>
 							<h2><span>Šminka</span></h2>
 							<div>
-								<p>Lorem ipsum dolor sit amet </p>
-								<p>Lorem ipsum dolor sit amet, consectetur </p>
-								<p>Više o Šminki</p>
+								<p>Stranica posvećena šminki </p>
+								<p>Fotografije i poneka reč o mojim radovima</p>
+								<p>Klikni da pogledaš</p>
 							</div>
-							<a href="#">View more</a>
+							<a href="sminka">View more</a>
 						</figcaption>			
 					</figure>
 				</div>
@@ -119,6 +119,10 @@
 							<h2><span>Video</span></h2>
 							<div>
 								<p>Moja video stranica </p>
+<<<<<<< HEAD
+=======
+								<p>Kratki video zapisi mojih radova </p>
+>>>>>>> origin/master
 								<p>Klikni da pogledaš</p>
 							</div>
 							<a href="video">View more</a>

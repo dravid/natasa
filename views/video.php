@@ -96,4 +96,26 @@
 		</div><!-- /.box -->
 	</div><!-- /.row -->
 	
+	<div class="row">
+		<div class="box">
+		
+			<div class="col-lg-6 col-lg-offset-3">
+				<hr>
+					<h2 class="intro-text text-center">Haircut and Atelier Makeup Basics</h2>
+				<hr>
+				
+				<div class="video_box" id="haircut_atelier">
+					<a href="https://www.youtube.com/watch?v=wCA4R0B9_wU&feature=share" rel="prettyPhoto" title="Haircut and Atelier Makeup Basics" alt="Haircut and Atelier Makeup Basics"><img src="img/video/play_button.png" alt="playing Haircut and Atelier Makeup Basics"></a>
+				</div>
+				<p class="video_p">
+					Ona je Vasiljka Andric. Prvi susret sa mojim makazama imala je kada je 
+					donirala svoju dugu kosu , po kojoj je bila prepoznatljiva, 
+					humanitarnoj akciji Kilometar Kose.
+				</p>
+				
+			</div>
+	
+		</div><!-- /.box -->
+	</div><!-- /.row -->
+	
 </div><!-- /.container -->

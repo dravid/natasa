@@ -10,7 +10,7 @@
 				<hr>
 			</div>
 			<div class="col-md-6">
-				<img class="img-responsive img-border-left" src="img/o-meni.jpg" alt="">
+				<img class="img-responsive img-border-left" src="img/o-meni-nova.jpg" alt="">
 			</div>
 			<div class="col-md-6">
 				<p>Moje ime je <strong>Nataša Stantić Brajović</strong>. 

@@ -35,6 +35,11 @@ background: url('../img/video/gina.jpg') no-repeat top center;
 background-size: 100% auto;
 }
 
+#haircut_atelier{
+background: url('../img/video/haircut.jpg') no-repeat top center;
+background-size: 100% auto;
+}
+
 .video_box img{
 width: 15%;
 background-color: transparent;
