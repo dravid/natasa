@@ -119,10 +119,7 @@
 							<h2><span>Video</span></h2>
 							<div>
 								<p>Moja video stranica </p>
-<<<<<<< HEAD
-=======
 								<p>Kratki video zapisi mojih radova </p>
->>>>>>> origin/master
 								<p>Klikni da pogledaš</p>
 							</div>
 							<a href="video">View more</a>
