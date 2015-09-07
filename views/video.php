@@ -99,7 +99,7 @@
 	<div class="row">
 		<div class="box">
 		
-			<div class="col-lg-6 col-lg-offset-3">
+			<div class="col-lg-6">
 				<hr>
 					<h2 class="intro-text text-center">Haircut and Atelier Makeup Basics</h2>
 				<hr>
@@ -111,6 +111,22 @@
 					Ona je Vasiljka Andric. Prvi susret sa mojim makazama imala je kada je 
 					donirala svoju dugu kosu , po kojoj je bila prepoznatljiva, 
 					humanitarnoj akciji Kilometar Kose.
+				</p>
+				
+			</div>
+			
+			<div class="col-lg-6">
+				<hr>
+					<h2 class="intro-text text-center">ATELIER obaveštenje za Crnu Goru</h2>
+				<hr>
+				
+				<div class="video_box" id="atelier_obavestenje">
+					<a href="https://www.youtube.com/watch?v=UZjHIRVplvA&feature=player_embedded" rel="prettyPhoto" title="ATELIER obaveštenje za Crnu Goru" alt="ATELIER obaveštenje za Crnu Goru"><img src="img/video/play_button.png" alt="playing ATELIER obavestenje za Crnu Goru"></a>
+				</div>
+				<p class="video_p">
+					19. Oktobra 2015. godine u Podgorici će biti predstavljena Atelier šminka, ista ona sa kojom ja 
+					radim na spotovima, snimanjima i venčanjima. U cenu ulaznice za ovaj događaj obračunace vam se i 
+					šminka ukoliko budete hteli da pazarite istu! 
 				</p>
 				
 			</div>
