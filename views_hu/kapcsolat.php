@@ -74,36 +74,36 @@ $show_message = "Uspe&#353;no ste poslali poruku.";
 					<?php } ?>
 			
 				<hr>
-				<h2 class="intro-text text-center">Kontakt
+				<h2 class="intro-text text-center">Kapcsolat 
 					<small style="font-size: .8em; font-weight: 700;">forma</small>
 				</h2>
 				<hr>
 				<p>
-					Ukoliko imate bilo kakvo pitanje za mene, slobodno mi pišite. Rado ću Vam pomoći u nedoumici i 
-					podeliti sa Vama po koji koristan savet iz domena moje profesije. ;)
+					Amennyiben bármilyen kérdése van hozzám, szabadon írjon. Ha kétségei akadnának, 
+					szívesen segítek és megosztok Önnel néhány hasznos, foglalkozásomhoz kapcsolódó tanácsot : ).
 				</p>
 				<form action="kontakt" method="post" role="form">
 					<div class="row">
 						<div class="form-group col-lg-4">
-							<label>Ime</label>
+							<label>Név</label>
 							<input type="text" name="inputName" class="form-control" required>
 						</div>
 						<div class="form-group col-lg-4">
-							<label>Email adresa</label>
+							<label>Email cím</label>
 							<input type="email" name="inputEmail" class="form-control" required>
 						</div>
 						<div class="form-group col-lg-4">
-							<label>Broj telefona</label>
+							<label>Telefonszám</label>
 							<input type="tel" name="inputPhone" class="form-control">
 						</div>
 						<div class="clearfix"></div>
 						<div class="form-group col-lg-12">
-							<label>Poruka</label>
+							<label>Üzenet</label>
 							<textarea style="max-width: 100%;" name="inputMessage" id="inputMessage" class="form-control" rows="6" required></textarea>
 						</div>
 						<div class="form-group col-lg-12">
 							<input type="hidden" name="submitted" value="mail">
-							<button type="submit" class="btn btn-default">Pošalji</button>
+							<button type="submit" class="btn btn-default">Küld</button>
 						</div>
 					</div>
 				</form>

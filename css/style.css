@@ -81,6 +81,33 @@ hr {
     letter-spacing: 2%;
 }
 
+#language_dropdown>button{
+	padding-bottom: 0;
+	border: 0;
+}
+#language_dropdown>button:link,
+#language_dropdown>button:visited,
+#language_dropdown>button:hover,
+#language_dropdown>button:active{
+
+	border: 0;
+}
+
+#language_dropdown>button>li>a>img{
+	width: 80%;
+	margin: 0;
+	padding: 0;
+}
+
+.dropdown-menu>li>a>img{
+	float: right;
+	width: 25%;
+}
+
+#language_dropdown span{
+margin-bottom: -5%;
+}
+
 .img-full {
     min-width: 100%;
 }

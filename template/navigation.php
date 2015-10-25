@@ -20,9 +20,40 @@
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		
 			<ul class="nav navbar-nav">
-				<?php nav_main($dbc, $path); ?>
+				<?php nav_main($dbc, $path, $navigation_table, $ext); ?>
+				<li>
+				
+				<div class="dropdown" id="language_dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" id="languageMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						
+						<?php if(isset($language_active_flag)) { 
+							$dropdown = '<li><a href="pocetna">Srpski <img src="img/srb.png" alt="Srpska zastava" title="Srpski"></a></li>';
+						?>
+						
+						<li><a href="kezdolap?lan=hu"><img src="img/HungaryFlag.png" alt="HungaryFlag" title="Magyar"></a></li>
+						
+						<?php } else {
+								$dropdown = '<li><a href="kezdolap?lan=hu">Magyar <img src="img/HungaryFlag.png" alt="HungaryFlag" title="Magyar"></a></li>';
+						?> 
+						
+						<li><a href="pocetna"><img src="img/srb.png" alt="Srpska zastava" title="Srpski"></a></li>
+						
+						<?php } ?>
+						<span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu" aria-labelledby="languageMenu">
+						
+						<?php echo $dropdown; ?>
+
+					</ul>
+				</div>
+				
+				</li>		
 			</ul>
+			
+
 		</div>
+		
 		<!-- /.navbar-collapse -->
 	</div>
 	<!-- /.container -->

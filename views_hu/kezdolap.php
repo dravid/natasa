@@ -60,18 +60,18 @@
 		<div class="box" id="box-o-meni">
 			<div class="col-lg-12">
 				<hr>
-				<h2 class="intro-text text-center">Zdravo! Ja sam
-					<strong>Nataša</strong>
+				<h2 class="intro-text text-center">Helló!
+					<strong>Nataša</strong> vagyok
 				</h2>
 				<hr>
 				<img class="img-responsive img-border img-left" src="img/natasa.jpg" alt="Nataša">
 				<hr class="visible-xs">
-				<p>U poslu sam frizer i šminker a privatno sam zaljubljenik u avangardnu modu i umetnost.</p>
-				<p>U radu sa ljudima biram energiju jer je ona moj pokretač. Neprestana težnja za edukacijom vodi 
-					me na različite svetske destinacije.</p>
-				<p>Udata sam i majka sam tri najinteresantnija dečaka na svetu. Moj zadatak je da u njihov život 
-					unesem boje.</p>
-				<div class="text-center"><a href="o-meni" class="btn btn-default btn-lg">Više o meni</a></div>
+				<p>A munkámban fodrász és sminkes a magánéletben viszont az avangard dívat és művészet imádója vagyok.</p>
+				<p>Az emberekkel való munkában az energiát válaszom, mert az az én mozgatóerőm. A továbbképzés útáni folytonos 
+				vágyódásom a világ különböző állomásaira juttat el engem.</p>
+				<p>Férjnél vagyok és a világ három legkülönlegesebb fiúgyermekének az édesanyja vagyok. 
+				A feladatom az, hogy az életükbe színt vigyek.</p>
+				<div class="text-center"><a href="rolam?lan=hu" class="btn btn-default btn-lg">Bővebben rólam</a></div>
 			</div>
 		</div>
 	</div>
@@ -80,7 +80,7 @@
 		<div class="box">
 			<div class="col-lg-12">
 				<hr>
-				<h2 class="intro-text text-center">Moje aktivnosti
+				<h2 class="intro-text text-center">Tevékenységeim
 				</h2>
 				<hr>
 				<div class="grid row">
@@ -88,11 +88,11 @@
 					<figure class="effect-julia">
 						<img class="img-responsive" src="img/kosa.png" alt="kosa"/>
 						<figcaption>
-							<h2><span>Kosa</span></h2>
+							<h2><span>Haj</span></h2>
 							<div>
-								<p>Stranica posvećena kosi </p>
-								<p>Fotografije i poneka reč o mojim radovima </p>
-								<p>Klikni da pogledaš</p>
+								<p>Ezt az oldalt a hajnak szentelem</p>
+								<p>Fényképek és néhány szó a munkáimról</p>
+								<p>Klikkelj és nézd meg</p>
 							</div>
 							<a href="kosa">View more</a>
 						</figcaption>			
@@ -102,11 +102,11 @@
 					<figure class="effect-julia">
 						<img class="img-responsive" src="img/sminka.png" alt="sminka"/>
 						<figcaption>
-							<h2><span>Šminka</span></h2>
+							<h2><span>Smink</span></h2>
 							<div>
-								<p>Stranica posvećena šminki </p>
-								<p>Fotografije i poneka reč o mojim radovima</p>
-								<p>Klikni da pogledaš</p>
+								<p>Ezt az oldalt a sminknek szentelem</p>
+								<p>Fényképek és néhány szó a munkáimról</p>
+								<p>Klikkelj és nézd meg</p>
 							</div>
 							<a href="sminka">View more</a>
 						</figcaption>			
@@ -116,11 +116,11 @@
 					<figure class="effect-julia">
 						<img class="img-responsive" src="img/foto-video.png" alt="sminka"/>
 						<figcaption>
-							<h2><span>Video</span></h2>
+							<h2><span>Videó</span></h2>
 							<div>
-								<p>Moja video stranica </p>
-								<p>Kratki video zapisi mojih radova </p>
-								<p>Klikni da pogledaš</p>
+								<p>Videó oldalam</p>
+								<p>Munkáim rövid videó felvételei</p>
+								<p>Klikkelj és nézd meg</p>
 							</div>
 							<a href="video">View more</a>
 						</figcaption>			

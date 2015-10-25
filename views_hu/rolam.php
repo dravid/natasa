@@ -4,8 +4,8 @@
 		<div class="box">
 			<div class="col-lg-12">
 				<hr>
-				<h2 class="intro-text text-center">Par reči o
-					<strong>meni</strong>
+				<h2 class="intro-text text-center">Néhány szó 
+					<strong>Rólam</strong>
 				</h2>
 				<hr>
 			</div>
@@ -13,19 +13,20 @@
 				<img class="img-responsive img-border-left" src="img/o-meni-nova.jpg" alt="">
 			</div>
 			<div class="col-md-6">
-				<p>Moje ime je <strong>Nataša Stantić Brajović</strong>. 
-					Rođena sam 20. Aprila 1984.god u Subotici, Srbija. Profesionalni sam frizer i šminker.</p>
+				<p><strong>Brajovic Stantic Natasa</strong> a nevem. 
+					1984. április 20-án születtem Szabadkán ( Szerbia ).
+					Hivatásos fodrász és sminkes vagyok.
+					</p>
 					
-				<p>Iskustvo koje sam od 2003. do 2005. godine sticala u prestižnim Redkenovim salonima u Subotici, 
-				Novom Sadu i Budvi (Crna Gora), bilo je više nego motivišuće da svoj život usmerim na potpuno novu 
-				dimenziju praktične umetnosti. <strong>Svet boja</strong>. </p>
+				<p>A tapasztalat, amelyre 2003. évtől kezdve 2005. évig a Redken előkelő szalonjaiban Szabadkán, Újvidéken és Budván 
+				( Montenegró ) tettem szert, a motívációnál is több volt ahhoz, hogy az életemet a gyakorlatias művészet teljesen új 
+				dimenziója irányába irányítsam. <strong>A színek világa</strong>. </p>
 				
-				<p>Po dolasku u Herceg Novi, Crna Gora, radim kao samostalni frizer a ubrzo i šminker. 
-				Učestvovala sam kako u zajedničkim frizerskim i "makeup" projektima širom sveta, 
-				tako i u privatnim angažmanima, editorijalima, snimanjima, itd. Nastanjena sam i udata u 
-				Herceg Novom gde sam nakon decenije rada otvorila svoj samostalni studio na skoro 100 m<sup>2</sup>. 
-				Zbog svojih karakteristika i talentovanih ljudi koji ga posecuju, moj studio predstavlja pravu kreativnu 
-				radionicu sa fokusom na lično izražavanje kroz "makeup", frizersku umetnost i fotografiju.</p>
+				<p>Herceg Noviba ( Montenegró ) jövetelemtől kezdve önálló fodrászként, majd nemsokkal később sminkesként is dolgozom. 
+				Részt vettem úgy a világszerte megrendezett közös fodrász és „makeup“ projekteken, mint magán megbízatásokon, divatszerkesztéseken, 
+				fotózásokon stb. Herceg Noviban, ahol lakok és férjnél vagyok, egy évtized munkáját követően megnyítottam a saját, önálló, közel 100 m<sup>2</sup>. 
+				elterűlő stúdiómat. Stúdióm, jellegzeteségei folytán és az azt látogató tehetséges emberek által, valódi kreatív műhelyt képvisel a „makeup“ - on, 
+				a fodrászművészeten és a fényképeken keresztűl a személyes kifejezésre jutás fókuszával.</p>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -35,8 +36,8 @@
 		<div class="box">
 			<div class="col-lg-12">
 				<hr>
-				<h2 class="intro-text text-center">Moji
-					<strong>Saradnici</strong>
+				<h2 class="intro-text text-center">
+					<strong>Munkatársaim</strong>
 				</h2>
 				<hr>
 			</div>
@@ -47,7 +48,7 @@
 				</h3>
 				
 				<!--<div class="text-center"><a href="" class="btn btn-default btn-lg" data-toggle="modal" data-target="#istvan">Pročitaj više</a></div>-->
-				<div class="text-center"><a href="https://www.facebook.com/ikacz" class="btn btn-default btn-lg" target="_blank">Pročitaj više</a></div>
+				<div class="text-center"><a href="https://www.facebook.com/ikacz" class="btn btn-default btn-lg" target="_blank">Bővebben</a></div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center saradnici">
 				<img class="img-responsive" src="img/saradnici/goca.jpg" alt="">
@@ -56,7 +57,7 @@
 				</h3>
 				
 				<!--<div class="text-center"><a href="" class="btn btn-default btn-lg" data-toggle="modal" data-target="#goca">Pročitaj više</a></div>-->
-				<div class="text-center"><a href="https://www.facebook.com/miladinovic.gorica" class="btn btn-default btn-lg" target="_blank">Pročitaj više</a></div>
+				<div class="text-center"><a href="https://www.facebook.com/miladinovic.gorica" class="btn btn-default btn-lg" target="_blank">Bővebben</a></div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center saradnici">
 				<img class="img-responsive" src="img/saradnici/radivoj.jpg" alt="">
@@ -65,7 +66,7 @@
 				</h3>
 				
 				<!--<div class="text-center"><a href="" class="btn btn-default btn-lg" data-toggle="modal" data-target="#radivoj">Pročitaj više</a></div>-->
-				<div class="text-center"><a href="https://www.facebook.com/radivoj.paroski?fref=ts" class="btn btn-default btn-lg" target="_blank">Pročitaj više</a></div>
+				<div class="text-center"><a href="https://www.facebook.com/radivoj.paroski?fref=ts" class="btn btn-default btn-lg" target="_blank">Bővebben</a></div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center saradnici">
 				<img class="img-responsive" src="img/saradnici/emese.jpg" alt="">
@@ -74,7 +75,7 @@
 				</h3>
 				
 				<!--<div class="text-center"><a href="" class="btn btn-default btn-lg" data-toggle="modal" data-target="#emese">Pročitaj više</a></div>-->
-				<div class="text-center"><a href="https://www.facebook.com/emese.backai?fref=ts" class="btn btn-default btn-lg" target="_blank">Pročitaj više</a></div>
+				<div class="text-center"><a href="https://www.facebook.com/emese.backai?fref=ts" class="btn btn-default btn-lg" target="_blank">Bővebben</a></div>
 			</div>
 			<div class="clearfix"></div>
 		</div>

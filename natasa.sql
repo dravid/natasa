@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.3.11
+-- version 4.4.12
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 29, 2015 at 05:16 PM
--- Server version: 5.6.24
--- PHP Version: 5.6.8
+-- Generation Time: Oct 25, 2015 at 07:03 PM
+-- Server version: 5.6.25
+-- PHP Version: 5.6.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -14,7 +14,7 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
+/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Database: `natasa`
@@ -76,6 +76,31 @@ INSERT INTO `navigation` (`id`, `label`, `url`, `target`, `position`, `status`) 
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `navigation_hu`
+--
+
+CREATE TABLE IF NOT EXISTS `navigation_hu` (
+  `id` mediumint(9) NOT NULL,
+  `label` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `url` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `target` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `position` int(3) NOT NULL,
+  `status` int(1) NOT NULL DEFAULT '1'
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `navigation_hu`
+--
+
+INSERT INTO `navigation_hu` (`id`, `label`, `url`, `target`, `position`, `status`) VALUES
+(1, 'Kezd&#337;lap', 'http://localhost/natasa/kezdolap?lan=hu', '', 0, 1),
+(2, 'R&#243;lam', 'http://localhost/natasa/rolam?lan=hu', '', 1, 1),
+(3, 'Blogom', 'http://localhost/natasa/blogom?lan=hu', '', 2, 1),
+(4, 'Kapcsolat', 'http://localhost/natasa/kapcsolat?lan=hu', '', 3, 1);
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `posts`
 --
 
@@ -88,7 +113,7 @@ CREATE TABLE IF NOT EXISTS `posts` (
   `title` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `header` varchar(300) COLLATE utf8_unicode_ci NOT NULL,
   `body` longtext COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Dumping data for table `posts`
@@ -100,7 +125,36 @@ INSERT INTO `posts` (`id`, `user`, `type`, `slug`, `label`, `title`, `header`, `
 (4, 1, 1, 'kontakt', 'Kontakt', 'Kontakt', 'Kontakt', '<p>Kontakt</p>'),
 (5, 1, 1, 'blog', 'Blog', 'Blog', 'Blog', '<p>Blog stranica</p>'),
 (6, 1, 1, 'show-blog', 'Show blog', 'Show blog', 'Show blog', '<p>Show blog</p>'),
-(7, 1, 1, 'video', 'Video', 'Video', 'Video page', '<p>Video page</p>');
+(7, 1, 1, 'video', 'Video', 'Video', 'Video Page', '<p>Video Page body.</p>'),
+(8, 1, 1, 'sminka', 'Sminka', 'Sminka', 'Sminka', '<p>Stranica sminka</p>'),
+(9, 1, 1, 'kosa', 'Kosa', 'Kosa', 'Kosa', '<p>Stranica Kosa</p>');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `posts_hu`
+--
+
+CREATE TABLE IF NOT EXISTS `posts_hu` (
+  `id` mediumint(9) NOT NULL,
+  `user` mediumint(9) NOT NULL,
+  `type` smallint(6) NOT NULL,
+  `slug` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `label` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `title` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `header` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `body` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `posts_hu`
+--
+
+INSERT INTO `posts_hu` (`id`, `user`, `type`, `slug`, `label`, `title`, `header`, `body`) VALUES
+(1, 1, 1, 'kezdolap', 'Kezd&#337;lap', 'Kezd&#337;lap', 'Kezd&#337;lap', 'Kezd&#337;lap'),
+(2, 1, 1, 'rolam', 'R&#243;lam', 'R&#243;lam', 'R&#243;lam', 'R&#243;lam'),
+(3, 1, 1, 'blogom', 'Blogom', 'Blogom', 'Blogom', 'Blogom'),
+(4, 1, 1, 'kapcsolat', 'Kapcsolat', 'Kapcsolat', 'Kapcsolat', 'Kapcsolat');
 
 -- --------------------------------------------------------
 
@@ -186,10 +240,24 @@ ALTER TABLE `navigation`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `navigation_hu`
+--
+ALTER TABLE `navigation_hu`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `posts`
 --
 ALTER TABLE `posts`
-  ADD PRIMARY KEY (`id`), ADD KEY `user` (`user`), ADD KEY `type` (`type`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `user` (`user`),
+  ADD KEY `type` (`type`);
+
+--
+-- Indexes for table `posts_hu`
+--
+ALTER TABLE `posts_hu`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `post_types`
@@ -224,10 +292,20 @@ ALTER TABLE `blog`
 ALTER TABLE `navigation`
   MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
+-- AUTO_INCREMENT for table `navigation_hu`
+--
+ALTER TABLE `navigation_hu`
+  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
+--
 -- AUTO_INCREMENT for table `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=8;
+  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=10;
+--
+-- AUTO_INCREMENT for table `posts_hu`
+--
+ALTER TABLE `posts_hu`
+  MODIFY `id` mediumint(9) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `post_types`
 --

@@ -18,7 +18,7 @@ function data_post_type($dbc, $id){
 	return $data;
 }
 
-function data_post($dbc, $id){
+function data_post($dbc, $id, $posts_table){
 	
 	if(is_numeric($id)){
 		$cond = "WHERE id = $id";
@@ -26,7 +26,7 @@ function data_post($dbc, $id){
 		$cond = "WHERE slug = '$id'";
 	}
 	
-	$q = "SELECT * FROM posts $cond";
+	$q = "SELECT * FROM $posts_table $cond";
 	$r = mysqli_query($dbc, $q);
 	
 	$data = mysqli_fetch_assoc($r);
