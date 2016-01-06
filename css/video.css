@@ -45,6 +45,11 @@ background: url('../img/video/atelier.jpg') no-repeat top center;
 background-size: 100% auto;
 }
 
+#makeup_atelier{
+background: url('../img/video/atelierParis.jpg') no-repeat top center;
+background-size: 100% auto;
+}
+
 .video_box img{
 width: 15%;
 background-color: transparent;

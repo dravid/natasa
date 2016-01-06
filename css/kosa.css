@@ -1,4 +1,10 @@
-#american_wedding_left_img>a>img{
+.kosa_text>p{
+	width: 94%;
+	margin: 4% 2%;
+	text-align: justify;
+}
+
+.kosa_text>a>img{
 	width: 46%;
 	height: auto;
 	margin-bottom: 2%;
@@ -9,10 +15,4 @@ a>img:hover{
 	
 	-webkit-transform: scale(1.02);
 	transform: scale(1.02);
-}
-
-#american_wedding_left_img>p{
-	width: 94%;
-	margin: 4% 2%;
-	text-align: justify;
 }
